@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It's just a simple web-page that shows a new fact on each refresh
 
-Things you may want to cover:
+**Fact API**:[Ninja APIs](http://https://api-ninjas.com/api/facts "Ninja APIs")
+**Style**: [Tailwind CSS](https://tailwindcss.com/ "Tailwind CSS")
+**Photos**: [Lorem Picsum](https://picsum.photos/ "Lorem Picsum")
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Live using [Fly.io](https://fly.io/ "Fly.io") at [https://factfinder.fly.dev/](https://factfinder.fly.dev/ "https://factfinder.fly.dev/")
