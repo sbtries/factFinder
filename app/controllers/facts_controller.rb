@@ -2,8 +2,13 @@ class FactsController < ApplicationController
   include HTTParty
 
   def index
-    response = HTTParty.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
-    @response = response.body if response.code == 200
-    # puts response.body if response.code == 200
+    url = 'https://api.api-ninjas.com/v1/facts?limit=1'
+
+    response = HTTParty.get(
+      url,
+      "headers": {
+        'X-Api-Key': ENV["API_KEY"]
+      })
+    @fact = response[0]["fact"] if response.code == 200
   end
 end
