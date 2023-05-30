@@ -1,4 +1,8 @@
 .grid-cols-1
+
+  %blockquote.text-xl.font-semibold.leading-8.text-gray-900.sm:text-2xl.sm:leading-9
+    %p A Random Fact Finder
+
   .max-w-sm.w-full.lg:max-w-full.lg:flex.flex-items-center
     .h-48.lg:h-auto.lg:w-48.flex-none.bg-cover.rounded-t.lg:rounded-t-none.lg:rounded-l.text-center.overflow-hidden{:style => "background-image: url('https://picsum.photos/200/300')", :title => "random image for random fact"}
     .border-r.border-b.border-l.border-gray-400.lg:border-l-0.lg:border-t.lg:border-gray-400.bg-white.rounded-b.lg:rounded-b-none.lg:rounded-r.p-4.flex.flex-col.justify-between.leading-normal
@@ -8,9 +12,9 @@
       .flex.items-center
         .text-sm
           %p.text-gray-900.leading-none Want another?
-          = button_to "Refresh", root_path, method: :get, class: "btn btn-blue"
+          = button_to "Refresh", root_path, method: :get, class: "btn btn-primary btn-blue"
 
-  .dl.grid.mt-4.max-w-xl.grid-cols-1.gap-x-8.gap-y-10.lg:max-w-none.lg:grid-cols-3.lg:gap-y-16
+  .bg-white.rounded-lg.dl.grid.mt-4.max-w-xl.grid-cols-1.gap-x-8.gap-y-10.lg:max-w-none.lg:grid-cols-3.lg:gap-y-16
     .relative.pl-16
       %dt.text-base.font-semibold.leading-7.text-gray-900
         Pictures from Picsum

@@ -3,7 +3,6 @@ class FactsController < ApplicationController
 
   def index
     url = 'https://api.api-ninjas.com/v1/facts?limit=1'
-
     response = HTTParty.get(
       url,
       "headers": {
