@@ -78,3 +78,8 @@ gem "pg", "~> 1.5"
 gem "tailwindcss-rails", "~> 2.0"
 
 gem "httparty", "~> 0.21.0"
+
+gem "pry", "~> 0.14.2"
+
+
+gem "dotenv-rails", "~> 2.8"
