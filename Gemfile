@@ -83,3 +83,7 @@ gem "pry", "~> 0.14.2"
 
 
 gem "dotenv-rails", "~> 2.8"
+
+gem "haml-rails", "~> 2.1"
+
+gem "html2haml", "~> 2.3"
